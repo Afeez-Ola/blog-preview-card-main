@@ -30,6 +30,11 @@ button {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: var(--gray-950);
+}
+
 .container {
     max-width: 70%;
     display: flex;
@@ -73,6 +78,10 @@ button {
     font-weight: 500;
 }
 
+a>h2:hover {
+    color: var(--yellow);
+}
+
 .description {
     font-weight: normal;
     color: var(--gray-500);
@@ -89,4 +98,14 @@ button {
 
 .author p {
     font-weight: 800;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0.75rem;
+    }
+    .card {
+        width: 100%;
+    }
 }
