@@ -96,6 +96,10 @@ a>h2:hover {
     gap: 0.75rem;
 }
 
+.author img {
+    width: 25%;
+}
+
 .author p {
     font-weight: 800;
 }
