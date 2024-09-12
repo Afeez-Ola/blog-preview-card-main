@@ -53,7 +53,7 @@ a {
     padding: 1.5rem;
     border-radius: 1.25rem;
     gap: 1.7rem;
-    box-shadow: 0.813rem 0.8rem 0rem var(--gray-950), 0 0.375rem 1.25rem var(--gray-950);
+    box-shadow: 0.813rem 0.8rem 0rem 0.16rem var(--gray-950), 0 0.375rem 1.25rem var(--gray-950);
 }
 
 .card img {
