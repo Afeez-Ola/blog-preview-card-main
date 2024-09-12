@@ -41,7 +41,7 @@ button {
 }
 
 .card {
-    width: 30%;
+    width: 40%;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
@@ -66,5 +66,27 @@ button {
     border-style: none;
     border-radius: 0.2rem;
     background: var(--yellow);
-    font-weight: bold;
+    font-weight: 800;
+}
+
+.published_date {
+    font-weight: 500;
+}
+
+.description {
+    font-weight: normal;
+    color: var(--gray-500);
+    line-height: 1.3rem;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.author p {
+    font-weight: 800;
 }
