@@ -14,7 +14,7 @@
 
 body {
     background: var(--yellow);
-    color: var(--white);
+    color: var(--gray-950);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -28,4 +28,23 @@ button {
 
 button {
     cursor: pointer;
+}
+
+.container {
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card {
+    width: 30%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
 }
